@@ -1,0 +1,38 @@
+{
+  "name": "genpark-natural-language-fullstack-web-app-architect-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Natural language full-stack web application architect generating validated TypeScript components, state stores, and API routes.",
+  "author": "genpark",
+  "category": "app-builder",
+  "tags": [
+    "product-hunt",
+    "lovable-dev",
+    "fullstack-scaffolder",
+    "gpt-engineer",
+    "instant-preview"
+  ],
+  "inputs": {
+    "app_description": {
+      "type": "string"
+    },
+    "target_stack": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "app_scaffold_id": {
+      "type": "string"
+    },
+    "app_name": {
+      "type": "string"
+    },
+    "components_generated_count": {
+      "type": "integer"
+    },
+    "live_instant_preview_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
